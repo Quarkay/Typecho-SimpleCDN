@@ -4,4 +4,4 @@
 
 安装插件之后设置如下图所示：
 
-<img src="https://github.com/mierhuo/SimpleCDN/blob/master/example.jpg?raw=true" alt="example.jpg">
+<img src="https://github.com/mierhuo/SimpleCDN/blob/master/example.png?raw=true" alt="example.jpg">
