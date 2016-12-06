@@ -71,8 +71,8 @@ class SimpleCDN_Plugin implements Typecho_Plugin_Interface
             if(array_key_exists('text', $con)){
                 $archive->stack[$index]['text'] = str_replace($to_replace, $replace_to, $con['text']);
             }
-            $archive->next();
         }
+        reset($archive->stack);
         $archive->text = str_replace($to_replace, $replace_to, $archive->text);
     }
 }
