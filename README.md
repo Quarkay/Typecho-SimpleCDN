@@ -12,7 +12,7 @@ Typecho-SimpleCDN
 1. 首先将本项目克隆到本地：
 
     ```bash
-    git clone git@github.com:mierhuo/Typecho-SimpleCDN.git
+    git clone git@github.com:Quarkay/Typecho-SimpleCDN.git
     ```
 
 2. 将子文件夹 SimpleCDN 复制到 Typecho插件目录
@@ -30,13 +30,13 @@ Typecho-SimpleCDN
 
 **（请注意转义正则特殊字符）**
 
-<img src="https://github.com/mierhuo/SimpleCDN/blob/master/example.png?raw=true" alt="一般用法配置例子">
+<img src="https://github.com/Quarkay/SimpleCDN/blob/master/example.png?raw=true" alt="一般用法配置例子">
 
 ### 2.正则替换
 
 有时候，一般用法并不能满足需求，可能文章内容中也出现了博客地址且不需要更换，这时就体现出了正则替换的作用。只需要提供更详细的原文替换规则即可，例如对于Markdown中的图片地址进行替换，如下图：
 
-<img src="https://github.com/mierhuo/SimpleCDN/blob/master/reg_example.png?raw=true" alt="正则替换配置例子">
+<img src="https://github.com/Quarkay/SimpleCDN/blob/master/reg_example.png?raw=true" alt="正则替换配置例子">
 
 **（正则捕获的值可根据需要进行引用）**
 
@@ -44,7 +44,7 @@ Typecho-SimpleCDN
 
 多条替换则是配置的时候通过分割符分割替换规则，即可达到多条替换的效果。如下图：
 
-<img src="https://github.com/mierhuo/SimpleCDN/blob/master/multi_example.png?raw=true" alt="多条替换配置例子">
+<img src="https://github.com/Quarkay/SimpleCDN/blob/master/multi_example.png?raw=true" alt="多条替换配置例子">
 
 ## 相关
 
@@ -54,4 +54,4 @@ Typecho-SimpleCDN
 
 ## License
 
-<a href="https://github.com/mierhuo/Typecho-SimpleCDN/blob/master/LICENSE.txt">The GNU General Public License (GPL) V2</a>
+<a href="https://github.com/Quarkay/Typecho-SimpleCDN/blob/master/LICENSE.txt">The GNU General Public License (GPL) V2</a>

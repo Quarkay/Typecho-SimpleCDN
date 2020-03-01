@@ -4,9 +4,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * 简易替换插件，可用作镜像类CDN地址转换，方便以后整站迁移。
  *
  * @package SimpleCDN
- * @author Huspy
+ * @author Quarkay
  * @version 1.0.0
- * @link https://www.mierhuo.com
+ * @link https://www.quarkay.com
  */
 class SimpleCDN_Plugin implements Typecho_Plugin_Interface
 {
